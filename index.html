@@ -6,25 +6,59 @@
         <meta name="description"
             content="personal webpage">
         <link href="styles/website_style.css" rel="stylesheet" type="text/css"/>
-        <link href="styles/rps_styles.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/tictactoe_style.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body>
         <div class="topnav">
             <p class="navtitle">Interactive Minigames</p>
-            <a class="active" href="index.html">Rock Paper Scissors</a>
-            <a href="tictactoe.html">Tic-Tac-Toe</a>
-          </div>
-
-        <h1 class="indent">Rock Paper Scissors</h1>
-        <hr>
-        <div class="indent">
-            <p></p>
-            <p>Your Move:</p>
-            <button class="pl"></button><button class="pl"></button><button class="pl"></button>
+            <a class="active" href="index.html">Tic-Tac-Toe</a>
+            <a href="tictactoe.html">Rock Paper Scissors</a>
         </div>
-        <script>
             
-        </script>
+        <div class="indent">
+            <h1 class="indent">Tic-Tac-Toe</h1>
+            <hr>
+            <br>
+            <input type="text" id="b1" onclick=
+            "turn(id); outcome();" readonly>
+   
+            <input type="text" id="b2" onclick=
+            "turn(id); outcome();" readonly>
+   
+            <input type="text" id="b3" onclick=
+            "turn(id); outcome();" readonly>
+            <br>
+   
+            <input type="text" id="b4" onclick=
+            "turn(id); outcome();" readonly>
+               
+            <input type="text" id="b5" onclick=
+            "turn(id); outcome();" readonly>
+   
+            <input type="text" id="b6" onclick=
+            "turn(id); outcome();" readonly>
+            <br>
+   
+            <input type="text" id="b7" onclick=
+            "turn(id); outcome();" readonly>
+   
+            <input type="text" id="b8" onclick=
+            "turn(id); outcome();" readonly>
+   
+            <input type="text" id="b9" onclick=
+            "turn(id); outcome();" readonly>
+    
+            <br><br>
+            
+            <button id="reset" onclick="reset_buttons()">RESET</button>
+    
+            <br><br>
+
+            <!-- Space to show player turn -->
+            <p id="print"></p>
+
+        </div>
+        <script src="scripts/tictactoe_script.js"></script>
     </body>
 </html>
