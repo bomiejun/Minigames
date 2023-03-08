@@ -26,8 +26,7 @@ h1 {
     border: 1px solid rgb(255, 30, 30);
     margin: auto;
     border-radius: 4px;
-    font-family: Verdana,
-        Geneva, Tahoma, sans-serif;
+    font-family: "Times New Roman", "Georgia", serif;
 
     background-color: rgb(255, 30, 30);
     color: white;
@@ -36,9 +35,8 @@ h1 {
 }
 
 /* Player turn space */
-#print {
-    font-family: Verdana,
-        Geneva, Tahoma, sans-serif;
+#player_turn {
+    font-family: "Times New Roman", "Georgia", serif;
 
     color: rgb(255, 30, 30);
     font-size: 20px;
@@ -47,12 +45,4 @@ h1 {
 /* Main Container */
 #main {
     text-align: center;
-}
-
-/* Game Instruction Text */
-#ins {
-    font-family: Verdana, Tahoma, sans-serif;
-         
-    color: rgb(255, 30, 30);
-    font-size: 17px;
 }
