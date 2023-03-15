@@ -63,10 +63,9 @@ function outcome() {
                 document.getElementById('player_turn').innerHTML = "Player X Turn";
             }
             else {
-                document.getElementById('player_turn').innerHTML = "Player 0 Turn";
+                document.getElementById('player_turn').innerHTML = "Player O Turn";
             }
         }
-        
     }
 }
 

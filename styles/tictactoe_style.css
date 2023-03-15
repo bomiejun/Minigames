@@ -3,46 +3,38 @@ h1 {
     font-size: 45px;
 }
 
-/* 3*3 Grid */
 #b1, #b2, #b3, #b4, #b5,
 #b6, #b7, #b8, #b9 {
     width: 120px;
     height: 120px;
-    border: 1px solid gray;
     border-radius: 6px;
     font-size: 30px;
     text-align: center;
     margin:1px; 
     margin-bottom:5px;
+    border: 1px solid gray;
     fill: white;
     
 }
 
-/* Reset Button */
 #reset {
-    box-sizing: border-box;
     width: 95px;
     height: 40px;
-    border: 1px solid rgb(255, 30, 30);
     margin: auto;
     border-radius: 4px;
     font-family: "Times New Roman", "Georgia", serif;
-
     background-color: rgb(255, 30, 30);
     color: white;
     font-size: 20px;
     cursor: pointer;
 }
 
-/* Player turn space */
 #player_turn {
     font-family: "Times New Roman", "Georgia", serif;
-
     color: rgb(255, 30, 30);
     font-size: 20px;
 }
 
-/* Main Container */
 #main {
     text-align: center;
 }
